@@ -1,0 +1,192 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* font-family: 'Cardo', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.product_heading{
+    text-align: center;
+    padding: 1rem;
+
+}
+.product_cards{
+
+    display: flex; 
+    flex-wrap: wrap;
+    /* padding: 2rem; */
+    width: 100%;
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 auto;
+  
+}
+
+img{
+
+    width: 400px;
+    border-radius: 40px;
+}
+/* Card 1 Styling  */
+.card1{
+    padding: 0rem 1rem;
+    
+    border: 1 px solid blue;
+    background-color: rgb(230, 238, 235);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    margin: 1rem;
+    border-radius: 20px;
+   line-height: 2;
+   width: 42%;
+   /* width: 100%; */
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.shoes_btn{
+
+    padding: .5rem 1.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+
+
+}
+.reviews{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* width: 40%; */
+}
+.review_person{
+    display: flex;
+    justify-content: center;
+     
+    align-items: center;
+    flex-wrap: wrap;
+}
+.person1{
+    /* display: flex; */
+    width: 90%;
+}
+.person1_review{
+    display: flex;
+    width: 10%;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.checked {
+    color: orange;
+  }
+  .card1 a{
+     text-decoration: none;
+     color: black;
+     font-weight: bold;
+  }
+  .btn1{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    /* margin: 1rem;
+    padding: 0.5rem; */
+    width: 45%;
+
+  }
+  .shoes_btn:hover{
+
+    background-color: rgb(209, 195, 195);
+  }
+  .shoe_title{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+  }
+
+  /* card2 */
+
+  .card2{
+
+    position: relative;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+
+  .large{
+    position: absolute;
+    top: 1rem;
+    left: 20rem;
+  }
+  .cart_icon{
+
+    width: 120%;
+    
+  }
+
+  .card3{
+
+    position: relative;
+    text-align: center;
+    /* margin-top: 2.5rem; */
+  }
+
+  .card4{
+
+    position: relative;
+    text-align: center;
+    /* margin-top: 2.5rem; */
+  }
+
+  .card5{
+
+    position: relative;
+    text-align: center;
+    /* margin-top: 2.5rem; */
+  }
+
+  .card6{
+
+    position: relative;
+    text-align: center;
+    /* margin-top: 2.5rem; */
+  }
+
+  .card7{
+
+    position: relative;
+    text-align: center;
+    /* margin-top: 2.5rem; */
+  }
+
+  .card8{
+
+    position: relative;
+    text-align: center;
+    /* margin-top: 2.5rem; */
+  }
+
+  .card9{
+
+    position: relative;
+    text-align: center;
+    /* margin-top: 2.5rem; */
+  }
+
+  .card10{
+
+    position: relative;
+    text-align: center;
+    /* margin-top: 2.5rem; */
+  }
